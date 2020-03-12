@@ -24,8 +24,8 @@ def printer(name)
   names=[]
   names << name
   
-  puts batch_badge_creator(names)
-  puts assign_room(names)
+  batch_badge_creator(names).each{|element| puts element }
+  assign_rooms(names).each{|element| puts element}
 
   
   
