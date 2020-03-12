@@ -23,11 +23,11 @@ end
 def printer(name)
   names=[]
   names << name
-  names.each_with_index do |speaker, room|
+  
   puts batch_badge_creator(names)
-  puts assign_rooms(speaker)
+  puts assign_room(names)
 
-  end
+  
   
 end
 
