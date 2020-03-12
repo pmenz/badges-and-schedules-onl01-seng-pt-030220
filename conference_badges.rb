@@ -25,6 +25,8 @@ def printer(names)
   names.each_with_index do |speaker, room|
   puts batch_badge_creator(names)
   puts assign_rooms(speaker)
+  end
+  
 end
 
    
