@@ -20,9 +20,8 @@ def assign_rooms(names)
   assign
 end
 
-def printer(name)
-  names=[]
-  names << name
+def printer(names)
+  
   
   batch_badge_creator(names).each{|element| puts element }
   assign_rooms(names).each{|element| puts element}
